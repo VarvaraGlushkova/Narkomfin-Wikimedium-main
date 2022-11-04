@@ -1,0 +1,67 @@
+.abouthtml {
+   width: 1440px;
+   height: 3252px;
+   position: relative;
+   margin: 0 auto;
+   
+
+}
+
+
+
+section div {
+  display: inline-block;
+  width: 49.8%;
+  overflow: hidden;
+  vertical-align: top;
+  margin-bottom: 50px;
+}
+section h2, section p {
+  margin: 0 auto 0 17%;
+  width: 570px;
+}
+section h2 {
+  font-size: 40px;
+  line-height: 44px;
+  margin-top: 141px;
+  margin-bottom: 40px;
+}
+section p {
+  font-size: 25px;
+  line-height: 33px;
+}
+section div:nth-child(even) img {
+  padding: 80px 0 0 40px;
+}
+section:nth-of-type(2) div:nth-of-type(2) {
+  margin: -86px auto 0 -79px;
+}
+section:nth-of-type(3) div:nth-of-type(1) {
+  margin-top: -51px;
+}
+.bottomblock {
+  text-align: center;
+}
+.bottomblock h2 {
+  margin: 98px   auto;
+  margin-bottom: 20px;
+  width: 800px;
+}
+.bottomblock p {
+  margin: 34px auto;
+  width: 800px;
+
+}
+.bottomblock a {
+  text-decoration: none;
+  font-size: 18px;
+  border: 1px solid black;
+  display: inline-block;
+  border-radius: 6px;
+  padding: 16px 51px;
+  margin: 56px 20px 220px 0px;
+}
+.button {
+  color: white;
+  background: black;
+}

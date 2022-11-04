@@ -1,0 +1,18 @@
+@media all and (max-width:1340px) {
+  .sidebar {display: none;}
+}
+@media all and (max-width: 1020px) {
+  article img {width: 100%;}
+}
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* галочка означает отношение только к дочерним элементам! */
+  /* в сисс прописываются простейшие математич функции, в данном случае мы отнимаем 40пикс ради отступов 20пикс по краям  */
+  article > * { width: calc(100% - 40px); }
+}
+@media all and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+  body { min-width: 320px; }
+  article > * { width: calc(100% - 40px); }
+}
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+	.sidebar { display: none; }
+}
